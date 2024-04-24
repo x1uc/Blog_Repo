@@ -1,0 +1,67 @@
+baseURL: https://x1uc.github.io
+# baseURL: https://www.sulvblog.cn  # 绑定的域名
+languageCode: zh-cn # en-us
+title: x1uc's Blog
+theme: PaperMod # 主题名字，和themes文件夹下的一致
+
+services:
+  disqus:
+    shortname: your-disqus-shortname
+
+languages:
+    en:
+      languageName: "English"
+      # contentDir: content/english
+      weight: 1
+      menu:
+        main:
+          - identifier: home
+            name: 🏠主页
+            url: /
+            weight: 2
+          - identifier: archives
+            name: ⏱归档
+            url: archives
+            weight: 20
+          - identifier: about
+            name: 🙋🏻‍♂️关于
+            url: about
+            weight: 50
+          - identifier: links
+            name: 🤝友链
+            url: links
+            weight: 60
+
+
+
+
+
+
+params:
+  env: production
+  comments: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+  ShowWordCounts: true
+  utteranc:
+    enable: true
+    repo: "x1uc.github.io" 
+    issueTerm: "title"
+    theme: "github-light"  
+
+
+  homeInfoParams:
+    Title: x1uc's Blog
+    Content: 欢迎访问我的Blog，如果发现错误可以联系下方我的邮箱。很高兴能为你提供帮助。
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/x1uc"
+    - name: "bilibili"
+      url: "https://space.bilibili.com/359368171"
+    - name: "RSS"
+      url: "index.xml"
+    - name: "email"
+      url: "mailto:704379838@qq.com"
